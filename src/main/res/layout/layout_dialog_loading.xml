@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/progress_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@anim/anim_loading" />
+
+    <TextView
+        android:id="@+id/showTextTv"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="正在缓冲。。。"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_h3"
+        android:visibility="gone" />
+</LinearLayout>
